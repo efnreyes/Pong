@@ -21,6 +21,8 @@
 		F9213248198A9E8000FF09E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F921322A198A9E7F00FF09E2 /* UIKit.framework */; };
 		F9213250198A9E8000FF09E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F921324E198A9E8000FF09E2 /* InfoPlist.strings */; };
 		F9213252198A9E8000FF09E2 /* PongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9213251198A9E8000FF09E2 /* PongTests.m */; };
+		F921325D198A9E8F00FF09E2 /* BallView.m in Sources */ = {isa = PBXBuildFile; fileRef = F921325C198A9E8F00FF09E2 /* BallView.m */; };
+		F9213260198A9EA000FF09E2 /* PaddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F921325F198A9EA000FF09E2 /* PaddleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		F921324D198A9E8000FF09E2 /* PongTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PongTests-Info.plist"; sourceTree = "<group>"; };
 		F921324F198A9E8000FF09E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F9213251198A9E8000FF09E2 /* PongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PongTests.m; sourceTree = "<group>"; };
+		F921325B198A9E8F00FF09E2 /* BallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallView.h; sourceTree = "<group>"; };
+		F921325C198A9E8F00FF09E2 /* BallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallView.m; sourceTree = "<group>"; };
+		F921325E198A9EA000FF09E2 /* PaddleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaddleView.h; sourceTree = "<group>"; };
+		F921325F198A9EA000FF09E2 /* PaddleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaddleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,10 @@
 				F921323C198A9E7F00FF09E2 /* ViewController.m */,
 				F921323E198A9E7F00FF09E2 /* Images.xcassets */,
 				F921322D198A9E7F00FF09E2 /* Supporting Files */,
+				F921325B198A9E8F00FF09E2 /* BallView.h */,
+				F921325C198A9E8F00FF09E2 /* BallView.m */,
+				F921325E198A9EA000FF09E2 /* PaddleView.h */,
+				F921325F198A9EA000FF09E2 /* PaddleView.m */,
 			);
 			path = Pong;
 			sourceTree = "<group>";
@@ -252,6 +262,8 @@
 				F921323D198A9E7F00FF09E2 /* ViewController.m in Sources */,
 				F9213237198A9E7F00FF09E2 /* AppDelegate.m in Sources */,
 				F9213233198A9E7F00FF09E2 /* main.m in Sources */,
+				F9213260198A9EA000FF09E2 /* PaddleView.m in Sources */,
+				F921325D198A9E8F00FF09E2 /* BallView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

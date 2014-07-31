@@ -28,6 +28,10 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="y7I-TJ-GcF" appends="YES" id="d7S-3P-rvJ"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="ballView" destination="8Yd-8T-thc" id="GGX-zh-chP"/>
@@ -35,6 +39,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="y7I-TJ-GcF">
+                    <connections>
+                        <action selector="dragPaddle:" destination="vXZ-lx-hvc" id="FTk-aV-a8N"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
         </scene>
     </scenes>
